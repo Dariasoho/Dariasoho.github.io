@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title=<h1>"Daria Søreide Houshmand"</h1>
 	<main>
 		<svg
 			class="astro-a"
@@ -33,31 +33,30 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<h1> <span class="text-gradient">Daria Houshmand </span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			Hi! Welcome to my homepage. My name is Daria, and i`m a 15 year old girl from Norway. Over the past years i`ve developed a passion for mathematics and physics visualised in programming. On this homepage i will post some of my projects. Thank you for following me on this journey!(ps: work in progress)
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				href="http://localhost:4327/Math"
+				title="Read more"
+				body="Mathematics in programming"
 			/>
 			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				href="http://localhost:4327/Physics"
+				title="Read more"
+				body="Physics in programming"
 			/>
 			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				href="http://localhost:4327/Tips"
+				title="Read more"
+				body="Tips on how to get into programming for beginners"
 			/>
 			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
+				href="http://localhost:4327/Contact"
+				title="Read more"
+				body="Contact me❤️"
 			/>
 		</ul>
 	</main>
